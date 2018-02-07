@@ -2,7 +2,7 @@ Línea Nacional 0800-222-1717 contra el abuso sexual infantil
 ============================================================
 
 Este conjunto de datos contiene las llamadas atendidas por las profesionales de la Línea Nacional 0800-222-1717, las 24hs todos los días del año, sobre casos de abuso sexual contra niñas, niños y adolescentes; y datos sobre las víctimas detectadas en esos llamados. Se cuenta con información desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir".
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Características
 ---------------
