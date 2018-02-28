@@ -37,7 +37,7 @@ Características
 Recursos disponibles
 --------------------
 
-### Llamados atendidos sobre abuso sexual infantil – AAAA-MM
+### Llamados atendidos sobre abuso sexual infantil - AAAA-MM
 
 -   **Nombre del archivo:** llamados-atendidos-abuso-sexual-infantil-AAAA-MM.csv
 
