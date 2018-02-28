@@ -21,7 +21,7 @@ Características
 
 -   **Fecha de Primera** **Publicación:** dd/mm/aaaa
 
--   **Tags o Etiquetas:** abuso sexual infantil, línea 0800, víctimas, niños, niñas, adolescentes, abuso, 0800-222-1717, violencia sexual
+-   **Tags o Etiquetas:** abuso sexual infantil, línea 0800, víctimas, niños, niñas, adolescentes, abusos, 0800-222-1717, violencia sexual
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Acceso a la Justicia. Programa Las Víctimas Contra Las Violencias
 
@@ -36,15 +36,13 @@ Características
 Recursos disponibles
 --------------------
 
-### Llamados atendidos sobre abuso sexual infantil – aaaa-mm
+### Llamados atendidos sobre abuso sexual infantil – AAAA-MM
 
--   **Nombre del archivo:** llamados-atendidos-abuso-sexual-infantil-aaaa-mm.csv
+-   **Nombre del archivo:** llamados-atendidos-abuso-sexual-infantil-AAAA-MM.csv
 
 -   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual infantil
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
-
-<!-- -->
 
 -   **Rango temporal:** listado actualizado a la fecha consignada como "Datos actualizados al"
 
@@ -52,11 +50,11 @@ Recursos disponibles
 
 -   **orden (entero):** número consecutivo de orden. Se vincula con el recurso de Víctimas
 
--   **caso\_anio (entero):** año del llamado
+-   **caso_anio (entero):** año del llamado
 
--   **genero\_llamante\_id (entero):** código de género de la persona que se contacta a la línea 0800-222-1717
+-   **genero_llamante_id (entero):** código de género de la persona que se contacta a la línea 0800-222-1717
 
--   **genero\_llamante\_descripcion (string):** descripción de género de la persona que se contacta a la línea 0800-222-1717
+-   **genero_llamante_descripcion (string):** descripción de género de la persona que se contacta a la línea 0800-222-1717
 
     -   Masculino
 
@@ -66,11 +64,11 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
--   **fecha\_carga\_llamado (string):** fecha de carga del llamado
+-   **fecha_carga_llamado (string):** fecha de carga del llamado
 
--   **región\_llamado\_id (entero):** código de la región del llamado
+-   **region_llamado_id (entero):** código de la región del llamado
 
--   **región\_llamado\_descripción (string):** descripción de la región del llamado según sectorización que realiza la DEIS (Dirección de Estadísticas e Información en Salud)
+-   **region_llamado_descripcion (string):** descripción de la región del llamado según sectorización que realiza la DEIS (Dirección de Estadísticas e Información en Salud)
 
     -   NOA: Catamarca, Jujuy, Salta, Sgo del Estero, Tucumán
 
@@ -88,9 +86,9 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
--   **rango\_edad\_id (entero):** código del rango de edad del llamante
+-   **rango_edad_id (entero):** código del rango de edad del llamante
 
--   **rango\_edad\_descripción (string):** descripción del rango de edad del llamante
+-   **rango_edad_descripcion (string):** descripción del rango de edad del llamante
 
     -   de 0 a 17 años
 
@@ -102,9 +100,9 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
--   **vinculo\_llamante\_id (entero):** código de vínculo de la persona que llama con la víctima
+-   **vinculo_llamante_id (entero):** código de vínculo de la persona que llama con la víctima
 
--   **vinculo\_llamante\_descripción (string):** descripción del vínculo de la persona que llama con la víctima
+-   **vinculo_llamante_descripcion (string):** descripción del vínculo de la persona que llama con la víctima
 
     -   Institución
 
@@ -118,15 +116,13 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
-### Víctimas detectadas de casos de abuso sexual infantil - aaaa-mm
+### Víctimas detectadas de casos de abuso sexual infantil - AAAA-MM
 
--   **Nombre:** victimas-detectadas-abuso-sexual-infantil-aaaa-mm.csv
+-   **Nombre:** victimas-detectadas-abuso-sexual-infantil-AAAA-MM.csv
 
--   **Descripción:** datos sobre las víctimas detectadas por los profesionales de la línea Nacional 0800-222-1717 sobre casos de abuso infantil
+-   **Descripción del contenido:** datos sobre las víctimas detectadas por los profesionales de la línea Nacional 0800-222-1717 sobre casos de abuso infantil
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
-
-<!-- -->
 
 -   **Rango temporal:** listado actualizado a la fecha consignada como "Datos actualizados al"
 
@@ -136,11 +132,9 @@ Recursos disponibles
 
 -   **victima (entero):** número consecutivo de víctima
 
--   **genero\_victima\_id (entero):** código de género de la víctima
+-   **genero_victima_id (entero):** código de género de la víctima
 
-<!-- -->
-
--   **genero\_victima\_descripcion (string):** descripción de género de la víctima
+-   **genero_victima_descripcion (string):** descripción de género de la víctima
 
     -   Masculino
 
@@ -150,13 +144,9 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
-<!-- -->
+-   **convive_con_agresor_id (entero):** código de convivencia con el agresor
 
--   **convive\_con\_agresor\_id (entero):** código de convivencia con el agresor
-
-<!-- -->
-
--   **convive\_con\_agresor\_descripcion (string):** descripción de convivencia con el agresor
+-   **convive_con_agresor_descripcion (string):** descripción de convivencia con el agresor
 
     -   No
 
@@ -164,15 +154,11 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
-<!-- -->
+-   **fecha_carga_llamado (string):** fecha de carga del llamado
 
--   **fecha\_carga\_llamado (string):** fecha de carga del llamado
+-   **rango_edad_id (entero):** código del rango de edad de la víctima
 
--   **rango\_edad\_id (entero):** código del rango de edad de la víctima
-
-<!-- -->
-
--   **rango\_edad\_descripción (string):** descripción del rango de edad de la víctima
+-   **rango_edad_descripcion (string):** descripción del rango de edad de la víctima
 
     -   de 0 a 17 años
 
@@ -184,13 +170,9 @@ Recursos disponibles
 
     -   Ns/Nc: no sabe / no contesta
 
-<!-- -->
+-   **vinculo_con_agresor_id (entero):** código del vínculo entre el agresor y la víctima
 
--   **vinculo\_con\_agresor\_id (entero):** código del vínculo entre el agresor y la víctima
-
-<!-- -->
-
--   **vinculo\_con\_agresor\_descripción (string):** descripción del vínculo entre el agresor y la víctima
+-   **vinculo_con_agresor_descripcion (string):** descripción del vínculo entre el agresor y la víctima
 
     -   Familiar
 
