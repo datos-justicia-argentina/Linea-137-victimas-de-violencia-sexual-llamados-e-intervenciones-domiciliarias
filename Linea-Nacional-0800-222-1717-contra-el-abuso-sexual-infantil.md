@@ -182,3 +182,7 @@ Recursos disponibles
     -   Desconocido
 
     -   Ns/Nc: no sabe / no contesta
+    
+    Notas
+    -----
+    Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
