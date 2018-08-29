@@ -1,17 +1,14 @@
 Línea Nacional 0800-222-1717 contra el abuso sexual
 ===================================================
 
-Este conjunto de datos contiene las llamadas atendidas por las profesionales de la Línea Nacional 0800-222-1717, las 24 hs. todos los días del año, sobre casos de abuso sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Este programa originalmente se ocupaba de los casos de abuso sexual infantil (niñas, niños y adolescentes) y actualmente se atienden todo tipo de casos de violencia sexual. Se cuentan con datos de llamados desde NOviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones desde enero de 2018. La campaña fue lanzada el 19 de NOviembre de 2016 por Presidencia de la Nación junto a la Subsecretaría de Acceso a la Justicia, del Ministerio de Justicia y DDHH y Unicef Argentina.
-
+Este conjunto de datos contiene las llamadas atendidas por las profesionales de la Línea Nacional 0800-222-1717, las 24hs todos los días del año sobre casos de abuso sexual contra niñas, niños y adolescentes; y los acompañamientos en terreno a víctimas de abuso sexual en el ámbito de CABA.
+En el caso de los llamados, se cuenta con información desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir". La campaña fue lanzada el 19 de noviembre de 2016 por Presidencia de la Nación junto a la Subsecretaría de Acceso a la Justicia, del Ministerio de Justicia y DDHH y Unicef Argentina. Y de los acompañamientos, desde enero de 2018.
 Esta línea atiende tanto a víctimas y familiares de abuso sexual contra niñas, niños y adolescentes como a instituciones de todo el país. Está a cargo de profesionales en psicología, trabajo social y abogacía. Las profesionales se ocupan de generar la articulación responsable, fortaleciendo a la persona que se contacta para que el niño/a sea acompañado/a por un adulto referente (sea familiar, o perteneciente a una institución) y propiciar su acceso a justicia.
-
-Se debe tomar en cuenta que, dado que es un tema tabú y que las llamadas pueden ser anónimas, muchos/as familiares o personas que se comunican No saben o NO quieren informar sobre algunas cuestiones sensibles.
-
-Además, en caso de que la NNOA NO cuente con un/a adulto/a referente que acompañe a la denuncia, la profesional del 08002221717 se ocupa de establecer las redes institucionales necesarias. Además, el Equipo jurídico eleva un Acta de comunicación a los organismos de protección de derechos, conforme el Art. 30 de la [Ley 26061, de Protección integral de los Derechos de las niñas, niños y adolescentes](http://servicios.infoleg.gob.ar/infolegInternet/anexos/110000-114999/110778/norma.htm) en los casos que por sus características aSI lo requiera.
-
-Dado que cada provincia cuenta con sus NOrmativas locales, recursos e instituciones se toman las acciones específicas en cada caso. El equipo de seguimiento, por su parte, interviene en casos evaluados como graves y cuando NO exista un/a adulto/a referente. Verifica que las instituciones a las que se derivan brinden una atención, acompañando desde las comunicaciones a realizar la denuncia correspondiente con los organismos judiciales existentes para tal fin.
-
-Si la evaluación legal y profesional lo determine el Programa efectúa la denuncia penal. Las estrategias de cada intervención se definen en función de la gravedad y riesgo de cada caso.
+Se debe tomar en cuenta que, dado que es un tema sensible, las llamadas pueden ser anónimas. Muchos/as familiares o personas que se comunican no saben o no quieren informar detalles.
+Además, en caso de que la NNyA no cuente con un/a adulto/a referente que acompañe a la denuncia, la profesional del 0800-222-1717 se ocupa de establecer las redes institucionales necesarias. Además, el Equipo Jurídico eleva un Acta de comunicación a los organismos de protección de derechos, conforme el Art. 30 de la [Ley 26061, de Protección integral de los Derechos de las niñas, niños y adolescentes](http://servicios.infoleg.gob.ar/infolegInternet/anexos/110000-114999/110778/norma.htm) en los casos que por sus características aSI lo requiera.
+Si la evaluación legal y profesional lo determina el Programa efectúa la denuncia penal. Las estrategias de cada intervención se definen en función del riesgo de cada caso.
+Dado que cada provincia cuenta con sus normativas locales, recursos e instituciones se toman las acciones específicas en cada caso. El Equipo de Seguimiento, por su parte, interviene en casos donde la víctima está en riesgo  y cuando no exista un/a adulto/a referente. Verifica que las instituciones a las que se derivan brinden una atención, asesorando desde las comunicaciones telefónicas, para realizar la denuncia correspondiente con los organismos judiciales existentes para tal fin.
+En los casos en que el llamado refiera a un episodio de violencia sexual en CABA se decide el desplazamiento de un Equipo Móvil, integrado por una psicóloga y una trabajadora social, al lugar donde se encuentra la víctima para acompañarla a realizar la denuncia a los lugares pertinentes, al hospital o donde requiera.
 
 <http://datos.jus.gob.ar/dataset/linea-nacional-0800-222-1717-contra-el-abuso-sexual>
 
@@ -39,7 +36,7 @@ Recursos disponibles
 
 -   **NOmbre del archivo:** llamados-atendidos-abuso-sexual -AAAA-MM.csv
 
--   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual
+-   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual infantil y de adultas/os
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -95,7 +92,7 @@ Recursos disponibles
 
 -   **victima\_nacionalidad (string):** describe la nacionalidad de la víctima
 
--   **victima\_vinculo\_agresor (string):** describe el vínculo que tiene la víctima con el agresor
+-   **victima\_vinculo\_(string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
 
 -   **victima\_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores SI/NO
 
@@ -207,7 +204,7 @@ Recursos disponibles
 
     -   NO
 
--   **victima\_nacionalida (string):** nacionalidad de la víctima
+-   **victima\_nacionalidad (string):** nacionalidad de la víctima
 
 -   **victima\_genero (string):** género de la víctima. Toma los valores:
 
@@ -225,7 +222,7 @@ Recursos disponibles
 
     -   NO
 
--   **victima\_vinculo\_agresor (string):** descripción del vínculo que tiene la víctima con el agresor
+-   **victima\_vinculo\_agresor (string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
 
 -   **vs\_violacion\_via\_vaginal (string):** vs - violencia sexual. Denuncia violación vía vaginal. Toma los valores SI/NO
 
