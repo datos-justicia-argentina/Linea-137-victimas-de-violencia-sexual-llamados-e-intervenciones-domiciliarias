@@ -10,7 +10,7 @@ Si la evaluación legal y profesional lo determina el Programa efectúa la denun
 Dado que cada provincia cuenta con sus normativas locales, recursos e instituciones se toman las acciones específicas en cada caso. El Equipo de Seguimiento, por su parte, interviene en casos donde la víctima está en riesgo  y cuando no exista un/a adulto/a referente. Verifica que las instituciones a las que se derivan brinden una atención, asesorando desde las comunicaciones telefónicas, para realizar la denuncia correspondiente con los organismos judiciales existentes para tal fin.
 En los casos en que el llamado refiera a un episodio de violencia sexual en CABA se decide el desplazamiento de un Equipo Móvil, integrado por una psicóloga y una trabajadora social, al lugar donde se encuentra la víctima para acompañarla a realizar la denuncia a los lugares pertinentes, al hospital o donde requiera.
 
-<http://datos.jus.gob.ar/dataset/linea-nacional-0800-222-1717-contra-el-abuso-sexual>
+http://datos.jus.gob.ar/dataset/linea-nacional-0800-222-1717-contra-el-abuso-sexual
 
 Características
 ---------------
@@ -44,43 +44,13 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **llamado\_fecha\_hora (date):** fecha y hora en la que se realiza el llamado a la línea 0800-222-1717
+-   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la línea 0800-222-1717
 
--   **llamado\_provincia (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717
+-   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717
 
--   **llamante\_edad (int):** edad de la persona que llama a la línea 0800-222-1717
+-   **llamante_edad (int):** edad de la persona que llama a la línea 0800-222-1717
 
--   **llamante\_genero (string):** género de la persona que llama a la línea 0800-222-1717. Toma los valores:
-
-    -   Masculino
-
-    -   Femenino
-
-    -   Trans
-
-    -   NS/NC: No sabe / No contesta
-
--   **llamante\_vinculo (string):** describe el vínculo que tiene la persona que llama a la línea 0800-222-1717 con la víctima
-
--   **caso\_judicializado (string):** describe si el caso se encuentra judicializado. Toma los valores:
-
-    -   SI
-
-    -   NO
-
-    -   NS/NC: No sabe / No contesta
-
--   **hecho\_lugar (string):** describe el lugar donde se produjo el hecho
-
--   **victima\_resguardo (string):** describe si la víctima se encuentra a resguardo. Toma los valores
-
-    -   SI
-
-    -   NO
-
--   **victima\_edad (int):** describe la edad de la víctima
-
--   **victima\_genero (string):** describe el género de la víctima. Toma los valores:
+-   **llamante_genero (string):** género de la persona que llama a la línea 0800-222-1717. Toma los valores:
 
     -   Masculino
 
@@ -90,93 +60,123 @@ Recursos disponibles
 
     -   NS/NC: No sabe / No contesta
 
--   **victima\_nacionalidad (string):** describe la nacionalidad de la víctima
+-   **llamante_vinculo (string):** describe el vínculo que tiene la persona que llama a la línea 0800-222-1717 con la víctima
 
--   **victima\_vinculo\_(string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
+-   **caso_judicializado (string):** describe si el caso se encuentra judicializado. Toma los valores:
 
--   **victima\_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores SI/NO
+    -   SI
 
--   **victima\_convive\_agresor: (string):** describe si la víctima convive con el agresor. Toma los valores SI/NO
+    -   NO
 
--   **vs\_violacion\_via\_vaginal (string):** vs - violencia sexual. Describe violación vía vaginal. Toma los valores SI/NO
+    -   NS/NC: No sabe / No contesta
 
--   **vs\_violacion\_via\_anal (string):** vs - violencia sexual. Describe violación vía anal. Toma los valores SI/NO
+-   **hecho_lugar (string):** describe el lugar donde se produjo el hecho
 
--   **vs\_violacion\_via\_oral (string):** vs - violencia sexual. Describe violación vía oral. Toma los valores SI/NO
+-   **victima_resguardo (string):** describe si la víctima se encuentra a resguardo. Toma los valores
 
--   **vs\_tentativa\_violacion (string):** vs - violencia sexual. Describe tentativa de violación. Toma los valores SI/NO
+    -   SI
 
--   **vs\_tocamiento\_sexual (string):** vs - violencia sexual. Describe tocamiento sexual. Toma los valores SI/NO
+    -   NO
 
--   **vs\_intento\_tocamiento (string):** vs - violencia sexual. Describe intento de tocamiento.  Toma los valores SI/NO
+-   **victima_edad (int):** describe la edad de la víctima
 
--   **vs\_intento\_violacion\_tercera\_persona (string):** vs - violencia sexual. Describe intento de violación por tercera persona. Toma los valores SI/NO
+-   **victima_genero (string):** describe el género de la víctima. Toma los valores:
 
--   **vs\_grooming (string):** vs - violencia sexual. Describe Grooming. Toma los valores SI/NO
+    -   Masculino
 
--   **vs\_exhibicionismo (string):** vs - violencia sexual. Describe exhibicionismo. Toma los valores SI/NO
+    -   Femenino
 
--   **vs\_amenazas\_verbales\_contenido\_sexual (string):** vs - violencia sexual. Describe amenazas verbales con contenido sexual. Toma los valores SI/NO
+    -   Trans
 
--   **vs\_explotacion\_sexual (string):** vs - violencia sexual. Describe explotación sexual. Toma los valores valores SI/NO
+    -   NS/NC: No sabe / No contesta
 
--   **vs\_explotacion\_sexual\_comercial (string):** vs - violencia sexual. Describe explotación sexual comercial. Toma los valores SI/NO
+-   **victima_nacionalidad (string):** describe la nacionalidad de la víctima
 
--   **vs\_explotacion\_sexual\_viajes\_turismo (string):** vs - violencia sexual. Describe explotación sexual en viajes de turismo. Toma los valores SI/NO
+-   **victima_vinculo_(string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
 
--   **vs\_sospecha\_trata\_personas\_fines\_sexuales (string):** vs - violencia sexual. Describe sospecha de trata de personas con fines sexuales. Toma los valores SI/NO
+-   **victima_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores SI/NO
 
--   **vs\_existencia\_facilitador\_corrupcion\_nnya (string):** vs - violencia sexual. Describe existencia de un facilitador a la corrupción de niños, niñas y adolescentes. Toma los valores SI/NO
+-   **victima_convive_agresor: (string):** describe si la víctima convive con el agresor. Toma los valores SI/NO
 
--   **vs\_obligacion\_sacarse\_fotos\_pornograficas (string):** vs - violencia sexual. Describe si la víctima fue obligada a sacarse fotos pornográficas. Toma los valores SI/NO
+-   **vs_violacion_via_vaginal (string):** vs - violencia sexual. Describe violación vía vaginal. Toma los valores SI/NO
 
--   **vs\_eyaculacion\_partes\_cuerpo (string):** vs - violencia sexual. Describe la eyaculación en partes del cuerpo. Toma los valores SI/NO
+-   **vs_violacion_via_anal (string):** vs - violencia sexual. Describe violación vía anal. Toma los valores SI/NO
 
--   **vs\_acoso\_sexual (string):** vs - violencia sexual. Describe acoso sexual. Toma los valores SI/NO
+-   **vs_violacion_via_oral (string):** vs - violencia sexual. Describe violación vía oral. Toma los valores SI/NO
 
--   **vs\_iniciacion\_sexual\_forzada\_inducida (string):** vs - violencia sexual. Describe iniciación sexual forzada o inducida. Toma los valores SI/NO
+-   **vs_tentativa_violacion (string):** vs - violencia sexual. Describe tentativa de violación. Toma los valores SI/NO
 
--   **vs\_otra\_forma\_violencia\_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
+-   **vs_tocamiento_sexual (string):** vs - violencia sexual. Describe tocamiento sexual. Toma los valores SI/NO
 
--   **vs\_no\_sabe\_no\_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se desconoce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **vs_intento_tocamiento (string):** vs - violencia sexual. Describe intento de tocamiento.  Toma los valores SI/NO
 
--   **ofv\_sentimiento\_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
+-   **vs_intento_violacion_tercera_persona (string):** vs - violencia sexual. Describe intento de violación por tercera persona. Toma los valores SI/NO
 
--   **ofv\_amenazas\_explicitas (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
+-   **vs_grooming (string):** vs - violencia sexual. Describe Grooming. Toma los valores SI/NO
 
--   **ofv\_violencia\_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
+-   **vs_exhibicionismo (string):** vs - violencia sexual. Describe exhibicionismo. Toma los valores SI/NO
 
--   **ofv\_intento\_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
+-   **vs_amenazas_verbales_contenido_sexual (string):** vs - violencia sexual. Describe amenazas verbales con contenido sexual. Toma los valores SI/NO
 
--   **ofv\_intento\_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
+-   **vs_explotacion_sexual (string):** vs - violencia sexual. Describe explotación sexual. Toma los valores valores SI/NO
 
--   **ofv\_intento\_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
+-   **vs_explotacion_sexual_comercial (string):** vs - violencia sexual. Describe explotación sexual comercial. Toma los valores SI/NO
 
--   **ofv\_recibio\_amenazas\_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
+-   **vs_explotacion_sexual_viajes_turismo (string):** vs - violencia sexual. Describe explotación sexual en viajes de turismo. Toma los valores SI/NO
 
--   **ofv\_utilizacion\_sustancias\_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
+-   **vs_sospecha_trata_personas_fines_sexuales (string):** vs - violencia sexual. Describe sospecha de trata de personas con fines sexuales. Toma los valores SI/NO
 
--   **ofv\_intento\_privacion\_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
+-   **vs_existencia_facilitador_corrupcion_nnya (string):** vs - violencia sexual. Describe existencia de un facilitador a la corrupción de niños, niñas y adolescentes. Toma los valores SI/NO
 
--   **ofv\_privacion\_libertad (string):** ofv - otras formas de violencia. Describe privación de libertad. Toma los valores SI/NO
+-   **vs_obligacion_sacarse_fotos_pornograficas (string):** vs - violencia sexual. Describe si la víctima fue obligada a sacarse fotos pornográficas. Toma los valores SI/NO
 
--   **ofv\_uso\_arma\_blanca (string):** ofv - otras formas de violencia. Describe uso de arma blanca. Toma los valores SI/NO
+-   **vs_eyaculacion_partes_cuerpo (string):** vs - violencia sexual. Describe la eyaculación en partes del cuerpo. Toma los valores SI/NO
 
--   **ofv\_uso\_arma\_fuego (string):** ofv - otras formas de violencia. Describe uso de arma de fuego. Toma los valores SI/NO
+-   **vs_acoso_sexual (string):** vs - violencia sexual. Describe acoso sexual. Toma los valores SI/NO
 
--   **ofv\_enganio\_seduccion (string):** ofv - otras formas de violencia. Describe engaño o seducción. Toma los valores SI/NO
+-   **vs_iniciacion_sexual_forzada_inducida (string):** vs - violencia sexual. Describe iniciación sexual forzada o inducida. Toma los valores SI/NO
 
--   **ofv\_intento\_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
+-   **vs_otra_forma_violencia_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
 
--   **ofv\_utilizacion\_animal\_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
+-   **vs_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se desconoce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **ofv\_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
+-   **ofv_sentimiento_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
 
--   **ofv\_otra\_forma\_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
+-   **ofv_amenazas_explicitas (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
 
--   **ofv\_NO\_sabe\_NO\_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **ofv_violencia_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
 
--   **llamado\_provincia_indec_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC
+-   **ofv_intento_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
+
+-   **ofv_intento_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
+
+-   **ofv_intento_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
+
+-   **ofv_recibio_amenazas_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
+
+-   **ofv_utilizacion_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
+
+-   **ofv_intento_privacion_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
+
+-   **ofv_privacion_libertad (string):** ofv - otras formas de violencia. Describe privación de libertad. Toma los valores SI/NO
+
+-   **ofv_uso_arma_blanca (string):** ofv - otras formas de violencia. Describe uso de arma blanca. Toma los valores SI/NO
+
+-   **ofv_uso_arma_fuego (string):** ofv - otras formas de violencia. Describe uso de arma de fuego. Toma los valores SI/NO
+
+-   **ofv_enganio_seduccion (string):** ofv - otras formas de violencia. Describe engaño o seducción. Toma los valores SI/NO
+
+-   **ofv_intento_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
+
+-   **ofv_utilizacion_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
+
+-   **ofv_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
+
+-   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
+
+-   **ofv_NO_sabe_NO_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+
+-   **llamado_provincia_indec_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC
 
 ### Intervenciones domiciliarias por casos de abuso sexual - AAAA-MM
 
@@ -190,25 +190,25 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **intervención\_fecha\_hora (string):** fecha y hora en la que se realiza la intervención
+-   **intervención_fecha_hora (string):** fecha y hora en la que se realiza la intervención
 
--   **victima\_edad (entero):** edad de víctima
+-   **victima_edad (entero):** edad de víctima
 
--   **victima\_convive\_agresor: (string):** describe si la víctima convive con el agresor. Toma los valores:
-
-    -   SI
-
-    -   NO
-
--   **victima\_embarazo (string):** describe si la víctima está embarazada: Toma los valores:
+-   **victima_convive_agresor: (string):** describe si la víctima convive con el agresor. Toma los valores:
 
     -   SI
 
     -   NO
 
--   **victima\_nacionalidad (string):** nacionalidad de la víctima
+-   **victima_embarazo (string):** describe si la víctima está embarazada: Toma los valores:
 
--   **victima\_genero (string):** género de la víctima. Toma los valores:
+    -   SI
+
+    -   NO
+
+-   **victima_nacionalidad (string):** nacionalidad de la víctima
+
+-   **victima_genero (string):** género de la víctima. Toma los valores:
 
     -   Masculino
 
@@ -218,95 +218,94 @@ Recursos disponibles
 
     -   NS/NC: No sabe / No contesta
 
--   **victima\_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores:
+-   **victima_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores:
 
     -   SI
 
     -   NO
 
--   **victima\_vinculo\_agresor (string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
+-   **victima_vinculo_agresor (string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
 
--   **vs\_violacion\_via\_vaginal (string):** vs - violencia sexual. Describe violación vía vaginal. Toma los valores SI/NO
+-   **vs_violacion_via_vaginal (string):** vs - violencia sexual. Describe violación vía vaginal. Toma los valores SI/NO
 
--   **vs\_violacion\_via\_anal (string):** vs - violencia sexual. Describe violación vía anal. Toma los valores SI/NO
+-   **vs_violacion_via_anal (string):** vs - violencia sexual. Describe violación vía anal. Toma los valores SI/NO
 
--   **vs\_violacion\_via\_oral (string):** vs - violencia sexual. Describe violación vía oral. Toma los valores SI/NO
+-   **vs_violacion_via_oral (string):** vs - violencia sexual. Describe violación vía oral. Toma los valores SI/NO
 
--   **vs\_tentativa\_violacion (string):** vs - violencia sexual. Describe tentativa de violación. Toma los valores SI/NO
+-   **vs_tentativa_violacion (string):** vs - violencia sexual. Describe tentativa de violación. Toma los valores SI/NO
 
--   **vs\_tocamiento\_sexual (string):** vs - violencia sexual. Describe tocamiento sexual. Toma los valores SI/NO
+-   **vs_tocamiento_sexual (string):** vs - violencia sexual. Describe tocamiento sexual. Toma los valores SI/NO
 
--   **vs\_intento\_tocamiento (string):** vs - violencia sexual. Describe intento de tocamiento. Toma los valores SI/NO
+-   **vs_intento_tocamiento (string):** vs - violencia sexual. Describe intento de tocamiento. Toma los valores SI/NO
 
--   **vs\_intento\_violacion\_tercera\_persona (string):** vs - violencia sexual. Describe intento de violación por tercera persona. Toma los valores SI/NO
+-   **vs_intento_violacion_tercera_persona (string):** vs - violencia sexual. Describe intento de violación por tercera persona. Toma los valores SI/NO
 
--   **vs\_grooming (string):** vs - violencia sexual. Describe Grooming. Toma los valores SI/NO
+-   **vs_grooming (string):** vs - violencia sexual. Describe Grooming. Toma los valores SI/NO
 
--   **vs\_exhibicionismo (string):** vs - violencia sexual. Describe exhibicionismo. Toma los valores SI/NO
+-   **vs_exhibicionismo (string):** vs - violencia sexual. Describe exhibicionismo. Toma los valores SI/NO
 
--   **vs\_amenazas\_verbales\_contenido\_sexual (string):** vs - violencia sexual. Describe amenazas verbales con contenido sexual. Toma los valores SI/NO
+-   **vs_amenazas_verbales_contenido_sexual (string):** vs - violencia sexual. Describe amenazas verbales con contenido sexual. Toma los valores SI/NO
 
--   **vs\_explotacion\_sexual (string):** vs - violencia sexual. Describe explotación sexual. Toma los valores SI/NO
+-   **vs_explotacion_sexual (string):** vs - violencia sexual. Describe explotación sexual. Toma los valores SI/NO
 
--   **vs\_explotacion\_sexual\_comercial (string):** vs - violencia sexual. Describe explotación sexual comercial. Toma los valores SI/NO
+-   **vs_explotacion_sexual_comercial (string):** vs - violencia sexual. Describe explotación sexual comercial. Toma los valores SI/NO
 
--   **vs\_explotacion\_sexual\_viajes\_turismo (string):** vs - violencia sexual. Describe explotación sexual en viajes de turismo. Toma los valores SI/NO
+-   **vs_explotacion_sexual_viajes_turismo (string):** vs - violencia sexual. Describe explotación sexual en viajes de turismo. Toma los valores SI/NO
 
--   **vs\_sospecha\_trata\_personas\_fines\_sexuales (string):** vs - violencia sexual. Describe sospecha de trata de personas con fines sexuales. Toma los valores SI/NO
+-   **vs_sospecha_trata_personas_fines_sexuales (string):** vs - violencia sexual. Describe sospecha de trata de personas con fines sexuales. Toma los valores SI/NO
 
--   **vs\_existencia\_facilitador\_corrupcion\_nnya (string):** vs - violencia sexual. Describe existencia de un facilitador a la corrupción de niños, niñas y adolescentes. Toma los valores SI/NO
+-   **vs_existencia_facilitador_corrupcion_nnya (string):** vs - violencia sexual. Describe existencia de un facilitador a la corrupción de niños, niñas y adolescentes. Toma los valores SI/NO
 
--   **vs\_obligacion\_sacarse\_fotos\_pornograficas (string):** vs - violencia sexual. Describe si la víctima fue obligada a sacarse fotos pornográficas. Toma los valores SI/NO
+-   **vs_obligacion_sacarse_fotos_pornograficas (string):** vs - violencia sexual. Describe si la víctima fue obligada a sacarse fotos pornográficas. Toma los valores SI/NO
 
--   **vs\_eyaculacion\_partes\_cuerpo (string):** vs - violencia sexual. Describe la eyaculación en partes del cuerpo. Toma los valores SI/NO
+-   **vs_eyaculacion_partes_cuerpo (string):** vs - violencia sexual. Describe la eyaculación en partes del cuerpo. Toma los valores SI/NO
 
--   **vs\_acoso\_sexual (string):** vs - violencia sexual. Describe acoso sexual. Toma los valores SI/NO
+-   **vs_acoso_sexual (string):** vs - violencia sexual. Describe acoso sexual. Toma los valores SI/NO
 
--   **vs\_iniciacion\_sexual\_forzada\_inducida (string):** vs - violencia sexual. Describe iniciación sexual forzada o inducida. Toma los valores SI/NO
+-   **vs_iniciacion_sexual_forzada_inducida (string):** vs - violencia sexual. Describe iniciación sexual forzada o inducida. Toma los valores SI/NO
 
--   **vs\_otra\_forma\_violencia\_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
+-   **vs_otra_forma_violencia_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
 
--   **vs\_NO\_sabe\_NO\_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se descoNOce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **vs_NO_sabe_NO_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se descoNOce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **ofv\_sentimiento\_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
+-   **ofv_sentimiento_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
 
--   **ofv\_amenazas\_explicitas (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
+-   **ofv_amenazas_explicitas (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
 
--   **ofv\_violencia\_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
+-   **ofv_violencia_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
 
--   **ofv\_intento\_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
 
--   **ofv\_intento\_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
 
--   **ofv\_intento\_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
 
--   **ofv\_recibio\_amenazas\_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
+-   **ofv_recibio_amenazas_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
 
--   **ofv\_utilizacion\_sustancias\_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
+-   **ofv_utilizacion_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
 
--   **ofv\_intento\_privacion\_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
+-   **ofv_intento_privacion_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
 
--   **ofv\_privacion\_libertad (string):** ofv - otras formas de violencia. Describe privación de libertad. Toma los valores SI/NO
+-   **ofv_privacion_libertad (string):** ofv - otras formas de violencia. Describe privación de libertad. Toma los valores SI/NO
 
--   **ofv\_uso\_arma\_blanca (string):** ofv - otras formas de violencia. Describe uso de arma blanca. Toma los valores SI/NO
+-   **ofv_uso_arma_blanca (string):** ofv - otras formas de violencia. Describe uso de arma blanca. Toma los valores SI/NO
 
--   **ofv\_uso\_arma\_fuego (string):** ofv - otras formas de violencia. Describe uso de arma de fuego. Toma los valores SI/NO
+-   **ofv_uso_arma_fuego (string):** ofv - otras formas de violencia. Describe uso de arma de fuego. Toma los valores SI/NO
 
--   **ofv\_enganio\_seduccion (string):** ofv - otras formas de violencia. Describe engaño o seducción. Toma los valores SI/NO
+-   **ofv_enganio_seduccion (string):** ofv - otras formas de violencia. Describe engaño o seducción. Toma los valores SI/NO
 
--   **ofv\_intento\_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
+-   **ofv_intento_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
 
--   **ofv\_utilizacion\_animal\_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
+-   **ofv_utilizacion_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
 
--   **ofv\_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
+-   **ofv_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
 
--   **ofv\_otra\_forma\_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
+-   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
 
--   **ofv\_no\_sabe\_no\_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
-<!-- -->
 
 -   Notas
     -----
 
-> Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
+Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
