@@ -305,7 +305,7 @@ Recursos disponibles
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
 
--   Notas
-    -----
+Notas
+-----
 
 Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
