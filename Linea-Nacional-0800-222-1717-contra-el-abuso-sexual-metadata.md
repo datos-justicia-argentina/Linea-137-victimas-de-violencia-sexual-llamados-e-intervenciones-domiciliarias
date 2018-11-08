@@ -15,7 +15,7 @@ http://datos.jus.gob.ar/dataset/linea-nacional-0800-222-1717-contra-el-abuso-sex
 Características
 ---------------
 
--   **Fecha de Primera** **Publicación:** dd/mm/aaaa
+-   **Fecha de Primera** **Publicación:** 07/02/2018
 
 -   **Tags o Etiquetas:** 0800-222-1717, abusos, adolescentes, intervención domiciliaria, línea 0800, niñas, niños, sexuales, violencias, víctimas
 
