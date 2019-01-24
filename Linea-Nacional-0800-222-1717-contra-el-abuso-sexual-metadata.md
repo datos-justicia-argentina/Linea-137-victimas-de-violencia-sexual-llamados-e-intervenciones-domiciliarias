@@ -27,7 +27,7 @@ Características
 
 -   **Grupo:** Acceso a Justicia
 
--   **Frecuencia de Actualización:** trimestralmente
+-   **Frecuencia de Actualización:** Trimestralmente
 
 Recursos disponibles
 --------------------
