@@ -180,7 +180,7 @@ Recursos disponibles
 
 ### Intervenciones domiciliarias por casos de abuso sexual - AAAA-MM
 
--   **NOmbre:** intervenciones-domiciliarias-abuso-sexual-AAAA-MM.csv
+-   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAA-MM.csv
 
 -   **Descripción del contenido:** Intervenciones domiciliarias por casos de abuso sexual efectuadas en CABA por el equipo móvil, luego de las llamadas recibidas en la línea nacional 0800-222-1717. La unidad de análisis de los datos es la víctima.
 
@@ -303,6 +303,22 @@ Recursos disponibles
 -   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
 
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+
+### Llamados atendidos sobre abuso sexual  - AAAA-MM
+
+-   **Nombre:** llamados-atendidos-abuso-sexual-AAAA-MM.zip
+
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
+
+-   **Formato:** ZIP
+
+### Intervenciones domiciliarias por casos de abuso sexual - AAAA
+
+-   **Nombre:** intervenciones-domiciliarias-abuso-sexual-AAAA.zip
+
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
+
+-   **Formato:** ZIP
 
 
 Notas
