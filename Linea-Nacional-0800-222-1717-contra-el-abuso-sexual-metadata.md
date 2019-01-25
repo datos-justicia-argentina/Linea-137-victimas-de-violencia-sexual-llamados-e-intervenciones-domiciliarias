@@ -266,7 +266,7 @@ Recursos disponibles
 
 -   **vs_otra_forma_violencia_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
 
--   **vs_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se descoNOce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **vs_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se desconoce o que no hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
 -   **ofv_sentimiento_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
 
