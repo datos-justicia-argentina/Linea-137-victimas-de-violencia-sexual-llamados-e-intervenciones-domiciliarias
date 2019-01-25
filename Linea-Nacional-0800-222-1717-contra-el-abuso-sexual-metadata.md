@@ -72,7 +72,7 @@ Recursos disponibles
 
 -   **hecho_lugar (string):** describe el lugar donde se produjo el hecho
 
--   **victima_resguardo (string):** describe si la víctima se encuentra a resguardo. Toma los valores
+-   **victima_a_resguardo (string):** describe si la víctima se encuentra a resguardo. Toma los valores
 
     -   SI
 
@@ -92,7 +92,7 @@ Recursos disponibles
 
 -   **victima_nacionalidad (string):** describe la nacionalidad de la víctima
 
--   **victima_vinculo_(string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
+-   **victima_vinculo_agresor(string):** describe el vínculo que tiene la víctima con el agresor (¿Qué es el agresor de la víctima?)
 
 -   **victima_discapacidad (string):** describe si la víctima posee algún tipo de discapacidad. Toma los valores SI/NO
 
@@ -146,15 +146,15 @@ Recursos disponibles
 
 -   **ofv_violencia_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
 
--   **ofv_intento_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahorcar (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
 
--   **ofv_intento_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_quemar (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
 
--   **ofv_intento_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahogar (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
 
--   **ofv_recibio_amenazas_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
+-   **ofv_amenaza_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
 
--   **ofv_utilizacion_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
+-   **ofv_uso_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
 
 -   **ofv_intento_privacion_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
 
@@ -168,13 +168,13 @@ Recursos disponibles
 
 -   **ofv_intento_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
 
--   **ofv_utilizacion_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
+-   **ofv_uso_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
 
 -   **ofv_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
 
 -   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
 
--   **ofv_NO_sabe_NO_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
 -   **llamado_provincia_indec_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC
 
@@ -266,23 +266,23 @@ Recursos disponibles
 
 -   **vs_otra_forma_violencia_sexual (string):** vs - violencia sexual. Describe otra forma de violencia sexual. Toma los valores SI/NO
 
--   **vs_NO_sabe_NO_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se descoNOce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **vs_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de violencia sexual que se descoNOce o que NO hace referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
 -   **ofv_sentimiento_amenaza (string):** ofv - otras formas de violencia. Describe sentimiento de amenaza. Toma los valores SI/NO
 
--   **ofv_amenazas_explicitas (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
+-   **ofv_amenaza_explicita (string):** ofv - otras formas de violencia. Describe amenazas explícitas. Toma los valores SI/NO
 
 -   **ofv_violencia_fisica (string):** ofv - otras formas de violencia. Describe violencia física. Toma los valores SI/NO
 
--   **ofv_intento_ahorcarla (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahorcar (string):** ofv - otras formas de violencia. Describe si trataron de ahorcar a la víctima. Toma los valores SI/NO
 
--   **ofv_intento_quemarla (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_quemar (string):** ofv - otras formas de violencia. Describe si trataron de quemar a la víctima. Toma los valores SI/NO
 
--   **ofv_intento_ahogarla (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
+-   **ofv_intento_ahogar (string):** ofv - otras formas de violencia. Describe si trataron de ahogar a la víctima. Toma los valores SI/NO
 
--   **ofv_recibio_amenazas_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
+-   **ofv_amenaza_muerte (string):** ofv - otras formas de violencia. Describe si la víctima recibió amenazas de muerte. Toma los valores SI/NO
 
--   **ofv_utilizacion_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
+-   **ofv_uso_sustancias_psicoactivas (string):** ofv - otras formas de violencia. Describe si la víctima recibió sustancias psicoactivas. Toma los valores SI/NO
 
 -   **ofv_intento_privacion_libertad (string):** ofv - otras formas de violencia. Describe intento de privación de libertad. Toma los valores SI/NO
 
@@ -296,13 +296,13 @@ Recursos disponibles
 
 -   **ofv_intento_matar (string):** ofv - otras formas de violencia. Describe intento de asesinato. Toma los valores SI/NO
 
--   **ofv_utilizacion_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
+-   **ofv_uso_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
 
 -   **ofv_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
 
 -   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
 
--   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que NO hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
+-   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
 ### Llamados atendidos sobre abuso sexual  - AAAA-MM
 
