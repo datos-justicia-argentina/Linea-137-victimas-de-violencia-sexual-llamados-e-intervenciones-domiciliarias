@@ -32,9 +32,9 @@ Características
 Recursos disponibles
 --------------------
 
-### Llamados atendidos sobre abuso sexual - AAAA-MM
+### Llamados atendidos sobre abuso sexual - AAAAMM
 
--   **Nombre del archivo:** llamados-atendidos-abuso-sexual -AAAA-MM.csv
+-   **Nombre del archivo:** llamados-atendidos-abuso-sexual -AAAAMM.csv
 
 -   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual infantil y de adultas/os
 
@@ -304,9 +304,9 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
-### Llamados atendidos sobre abuso sexual  - AAAA-MM
+### Llamados atendidos sobre abuso sexual  - AAAAMM
 
--   **Nombre:** llamados-atendidos-abuso-sexual-AAAA-MM.zip
+-   **Nombre:** llamados-atendidos-abuso-sexual-AAAAMM.zip
 
 -   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
 
