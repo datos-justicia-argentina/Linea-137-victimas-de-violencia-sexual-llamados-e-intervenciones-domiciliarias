@@ -176,7 +176,7 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **llamado_provincia_indec_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC
+-   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
 ### Intervenciones domiciliarias por casos de abuso sexual - AAAAMM
 
