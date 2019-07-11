@@ -32,11 +32,11 @@ Características
 Recursos disponibles
 --------------------
 
-### Llamados atendidos sobre abuso sexual - AAAAMM
+### Llamados atendidos sobre abuso sexual - AAAA trimestre 9
 
--   **Nombre del archivo:** llamados-atendidos-abuso-sexual -AAAAMM.csv
+-   **Nombre del archivo:** llamados-atendidos-abuso-sexual -AAAA-trimestre-9.csv
 
--   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual infantil y de adultas/os
+-   **Descripción del contenido:** detalle de los llamados atendidos por las profesionales de la Línea Nacional 0800-222-1717 sobre casos de abuso sexual infantil y de adultas/os. Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado)
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -178,11 +178,11 @@ Recursos disponibles
 
 -   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
-### Intervenciones domiciliarias por casos de abuso sexual - AAAAMM
+### Intervenciones domiciliarias por casos de abuso sexual - AAAA trimestre 9
 
--   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAAMM.csv
+-   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAA-trimestre-9.csv
 
--   **Descripción del contenido:** Intervenciones domiciliarias por casos de abuso sexual efectuadas en CABA por el equipo móvil, luego de las llamadas recibidas en la línea nacional 0800-222-1717. La unidad de análisis de los datos es la víctima.
+-   **Descripción del contenido:** Intervenciones domiciliarias por casos de abuso sexual efectuadas en CABA por el equipo móvil, luego de las llamadas recibidas en la línea nacional 0800-222-1717. La unidad de análisis de los datos es la víctima.Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado)
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -308,7 +308,7 @@ Recursos disponibles
 
 -   **Nombre:** llamados-atendidos-abuso-sexual-AAAAMM.zip
 
--   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año, organizado en archivos trimestrales
 
 -   **Formato:** ZIP
 
@@ -316,7 +316,7 @@ Recursos disponibles
 
 -   **Nombre:** intervenciones-domiciliarias-abuso-sexual-AAAA.zip
 
--   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año, organizado en archivos trimestrales
 
 -   **Formato:** ZIP
 
