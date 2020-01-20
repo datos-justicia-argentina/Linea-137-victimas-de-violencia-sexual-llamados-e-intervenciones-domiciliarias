@@ -44,6 +44,8 @@ Recursos disponibles
 
 ### Campos del recurso
 
+-   **caso_id (int):** código que permite identificar el caso (este campo es publicado a partir del 4to. trimestre de 2019)
+
 -   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la línea 0800-222-1717
 
 -   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la línea 0800-222-1717
