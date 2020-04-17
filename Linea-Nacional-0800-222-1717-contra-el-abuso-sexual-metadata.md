@@ -192,6 +192,8 @@ Recursos disponibles
 
 ### Campos del recurso
 
+-   **caso_id (int):** código que permite identificar el caso (este campo es publicado a partir del 1er. trimestre de 2020)
+
 -   **intervención_fecha_hora (string):** fecha y hora en la que se realiza la intervención
 
 -   **victima_edad (entero):** edad de víctima
