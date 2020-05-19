@@ -1,5 +1,5 @@
 Línea Nacional 137 - víctimas de violencia sexual - llamados e intervenciones domiciliarias
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 Este conjunto de datos contiene las llamadas atendidas por las/los profesionales de la Línea Nacional 137/0800-222-1717 sobre casos de violencia sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Las llamadas pueden ingresar por dos vías: 137 y 0800-222-1717 (ambas de alcance nacional) y también forman parte de este conjunto de datos, los mails y formularios web que ingresan al Programa denunciando situaciones de pornografía infantil, grooming y explotación sexual comercial de niñas, niños y adolescentes. Se cuenta con datos de llamados desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones domiciliarias desde enero de 2018. Si bien a partir de dicha campaña se centró la atención en casos de abuso sexual a niñas, niños y adolescentes, actualmente se atiende a víctimas de todas las edades.
 
