@@ -1,7 +1,7 @@
-Línea Nacional 137 - víctimas de violencia sexual - llamados e intervenciones domiciliarias
+Línea 137 - víctimas de violencia sexual - llamados e intervenciones domiciliarias
 --------------------------------------------------------------------------------------------
 
-Este conjunto de datos contiene los llamados atendidos por las y los profesionales de la línea nacional 137 sobre casos de violencia sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Los llamados pueden ingresar por dos vías: 137 y 0800-222-1717 (ambas de alcance nacional) y también forman parte de este conjunto de datos, los mails y formularios web que ingresan al Programa denunciando situaciones de pornografía infantil, grooming y explotación sexual comercial de niñas, niños y adolescentes. Se cuenta con datos de llamados desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones domiciliarias desde enero de 2018. Link al formulario de denuncia: https://www2.jus.gov.ar/equipoNinos
+Este conjunto de datos contiene los llamados atendidos por las y los profesionales de la Línea 137, de alcance nacional, sobre casos de violencia sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Los llamados pueden ingresar por dos vías: 137 y 0800-222-1717 (ambas de alcance nacional) y también forman parte de este conjunto de datos, los mails y formularios web que ingresan al Programa denunciando situaciones de pornografía infantil, grooming y explotación sexual comercial de niñas, niños y adolescentes. Se cuenta con datos de llamados desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones domiciliarias desde enero de 2018. Link al formulario de denuncia: https://www2.jus.gov.ar/equipoNinos
 
 http://datos.jus.gob.ar/dataset/linea-137-victimas-de-violencia-sexual
 
@@ -25,11 +25,11 @@ Características
 Recursos disponibles
 --------------------
 
-### Llamados atendidos sobre abuso sexual - Línea Nacional 137 - AAAAMM
+### Llamados atendidos sobre abuso sexual - Línea 137 - AAAAMM
 
 -   **Nombre del archivo:** llamados-atendidos-abuso-sexual-AAAAMM.csv
 
--   **Descripción del contenido:** detalle de los llamados de todo el país atendidos por las/los profesionales de la Línea Nacional 137/0800-222-1717 sobre casos de violencia sexual.
+-   **Descripción del contenido:** detalle de los llamados de todo el país atendidos por las y los profesionales de la Línea 137/0800-222-1717 (ambas de alcance nacional), sobre casos de violencia sexual.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -39,13 +39,13 @@ Recursos disponibles
 
 -   **caso_id (int):** código que permite identificar el caso (este campo es publicado a partir del 4to. trimestre de 2019)
 
--   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la Línea Nacional 137/0800-222-1717
+-   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la Línea 137/0800-222-1717
 
--   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la Línea Nacional 137/0800-222-1717
+-   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717
 
--   **llamante_edad (int):** edad de la persona que llama a la Línea Nacional 137/0800-222-1717
+-   **llamante_edad (int):** edad de la persona que llama a la Línea 137/0800-222-1717
 
--   **llamante_genero (string):** género de la persona que llama a la Línea Nacional 137/0800-222-1717. Toma los valores:
+-   **llamante_genero (string):** género de la persona que llama a la Línea 137/0800-222-1717. Toma los valores:
 
     -   Masculino
 
@@ -55,7 +55,7 @@ Recursos disponibles
 
     -   NS/NC: No sabe / No contesta
 
--   **llamante_vinculo (string):** describe el vínculo que tiene la persona que llama a la Línea Nacional 137/0800-222-1717 con la víctima
+-   **llamante_vinculo (string):** describe el vínculo que tiene la persona que llama a la Línea 137/0800-222-1717 con la víctima
 
 -   **caso_judicializado (string):** describe si el caso se encuentra judicializado. Toma los valores:
 
@@ -171,13 +171,13 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea Nacional 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
+-   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
-### Intervenciones domiciliarias por casos de abuso sexual - Línea Nacional 137 - AAAAMM
+### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAAMM
 
 -   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAAMM.csv
 
--   **Descripción del contenido:** detalle de intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de las llamadas recibidas en la Línea Nacional 137/0800-222-1717. La unidad de análisis en este recurso es la víctima (puede haber más de una víctima/fila por intervención).
+-   **Descripción del contenido:** detalle de Intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de los llamados recibidos en la Línea 137/0800-222-1717 (ambas de alcance nacional). La unidad de análisis en este recurso es la víctima (puede haber más de una víctima/fila por intervención).
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -301,27 +301,27 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
-### Llamados atendidos sobre abuso sexual - Línea Nacional 137 - AAAA trimestre 9
+### Llamados atendidos sobre abuso sexual - Línea 137 - AAAA trimestre 9
 
 -   **Nombre del archivo:** llamados-atendidos-abuso-sexual-AAAA-trimestre-9.csv
 
--   **Descripción del contenido:** detalle de los llamados de todo el país atendidos por las/los profesionales de la Línea Nacional 137/0800-222-1717 sobre casos de violencia sexual. Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado).
+-   **Descripción del contenido:** detalle de los llamados de todo el país atendidos por las y los profesionales de la Línea 137/0800-222-1717 (ambas de alcance nacional), sobre casos de violencia sexual. Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado).
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** llamados atendidos en la Línea Nacional 137/0800-222-1717 desde noviembre de 2016 hasta la fecha consignada como "Datos actualizados al"
+-   **Rango temporal:** llamados atendidos en la Línea 137/0800-222-1717 desde noviembre de 2016 hasta la fecha consignada como "Datos actualizados al"
 
 ### Campos del recurso
 
 -   **caso_id (int):** código que permite identificar el caso (este campo es publicado a partir del 4to. trimestre de 2019)
 
--   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la Línea Nacional 137/0800-222-1717
+-   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la Línea 137/0800-222-1717
 
--   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la Línea Nacional 137/0800-222-1717
+-   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717
 
--   **llamante_edad (int):** edad de la persona que llama a la Línea Nacional 137/0800-222-1717
+-   **llamante_edad (int):** edad de la persona que llama a la Línea 137/0800-222-1717
 
--   **llamante_genero (string):** género de la persona que llama a la Línea Nacional 137/0800-222-1717. Toma los valores:
+-   **llamante_genero (string):** género de la persona que llama a la Línea 137/0800-222-1717. Toma los valores:
 
     -   Masculino
 
@@ -331,7 +331,7 @@ Recursos disponibles
 
     -   NS/NC: No sabe / No contesta
 
--   **llamante_vinculo (string):** describe el vínculo que tiene la persona que llama a la Línea Nacional 137/0800-222-1717 con la víctima
+-   **llamante_vinculo (string):** describe el vínculo que tiene la persona que llama a la Línea 137/0800-222-1717 con la víctima
 
 -   **caso_judicializado (string):** describe si el caso se encuentra judicializado. Toma los valores:
 
@@ -447,13 +447,13 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea Nacional 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
+-   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
-### Intervenciones domiciliarias por casos de abuso sexual - Línea Nacional 137 - AAAA trimestre 9
+### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAA trimestre 9
 
 -   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAA-trimestre-9.csv
 
--   **Descripción del contenido:** detalle de intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de las llamadas recibidas en la Línea Nacional 137/0800-222-1717. La unidad de análisis en este recurso es la víctima..Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado).
+-   **Descripción del contenido:** detalle de las intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de los llamados recibidos en la Línea 137/0800-222-1717 (ambas de alcance nacional). La unidad de análisis en este recurso es la víctima.Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado).
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -577,7 +577,7 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
-### Llamados atendidos sobre abuso sexual  - Línea Nacional 137 - AAAA
+### Llamados atendidos sobre abuso sexual  - Línea 137 - AAAA
 
 -   **Nombre:** llamados-atendidos-abuso-sexual-AAAA.zip
 
@@ -585,7 +585,7 @@ Recursos disponibles
 
 -   **Formato:** ZIP
 
-### Intervenciones domiciliarias por casos de abuso sexual - Línea Nacional 137 - AAAA
+### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAA
 
 -   **Nombre:** intervenciones-domiciliarias-abuso-sexual-AAAA.zip
 
