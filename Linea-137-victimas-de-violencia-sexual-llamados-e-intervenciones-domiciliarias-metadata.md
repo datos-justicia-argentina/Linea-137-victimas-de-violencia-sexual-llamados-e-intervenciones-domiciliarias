@@ -1,7 +1,7 @@
 Línea 137 - víctimas de violencia sexual - llamados e intervenciones domiciliarias
 --------------------------------------------------------------------------------------------
 
-Este conjunto de datos contiene los llamados atendidos por las y los profesionales de la Línea 137, de alcance nacional, sobre casos de violencia sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Los llamados pueden ingresar por dos vías: 137 y 0800-222-1717 (ambas de alcance nacional) y también forman parte de este conjunto de datos, los mails y formularios web que ingresan al Programa denunciando situaciones de pornografía infantil, grooming y explotación sexual comercial de niñas, niños y adolescentes. Se cuenta con datos de llamados desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones domiciliarias desde enero de 2018. Link al formulario de denuncia: https://www2.jus.gov.ar/equipoNinos
+Este conjunto de datos contiene los llamados atendidos por las y los profesionales de la Línea 137, de alcance nacional, sobre casos de violencia sexual y las intervenciones domiciliarias efectuadas a partir de dichos llamados. Los llamados pueden ingresar por dos vías: 137 y 0800-222-1717 (ambas de alcance nacional) y también forman parte de este conjunto de datos, los mails y formularios web que ingresan al Programa denunciando situaciones de pornografía infantil, grooming y explotación sexual comercial de niñas, niños y adolescentes. Se cuenta con datos de llamados desde noviembre de 2016, año en que se lanzó la Campaña Nacional "Abuso Sexual Infantil: Hablar es empezar a prevenir", y de intervenciones domiciliarias desde enero de 2018. Link al formulario de denuncia: https://www.argentina.gob.ar/violencia-familiar-y-sexual
 
 http://datos.jus.gob.ar/dataset/linea-137-victimas-de-violencia-sexual
 
@@ -29,7 +29,7 @@ Recursos disponibles
 
 -   **Nombre del archivo:** llamados-atendidos-abuso-sexual-AAAAMM.csv
 
--   **Descripción del contenido:** detalle de los llamados de todo el país atendidos por las y los profesionales de la Línea 137/0800-222-1717 (ambas de alcance nacional), sobre casos de violencia sexual.
+-   **Descripción del contenido:** Detalle de los llamados de todo el país atendidos por las y los profesionales de la Línea 137, de alcance nacional, sobre casos de violencia sexual correspondientes al período comprendido entre enero y el mes del año indicado en el título.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -451,9 +451,9 @@ Recursos disponibles
 
 ### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAA trimestre 9
 
--   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAA-trimestre-9.csv
+-   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAAMM.csv
 
--   **Descripción del contenido:** detalle de las intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de los llamados recibidos en la Línea 137/0800-222-1717 (ambas de alcance nacional). La unidad de análisis en este recurso es la víctima.Trimestre 9: Toma valores 1; 2; 3 y 4 (cada número hace referencia al trimestre del año indicado).
+-   **Descripción del contenido:** detalle de las intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de los llamados recibidos en la Línea 137/0800-222-1717 (ambas de alcance nacional). La unidad de análisis en este recurso es la víctima. Corresponde al período comprendido entre enero y el mes del año indicado en el título.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -577,19 +577,11 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** ofv - otras formas de violencia. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
-### Llamados atendidos sobre abuso sexual  - Línea 137 - AAAA
+### Linea 137 - violencia sexual - llamados atendidos e intervenciones realizadas
 
--   **Nombre:** llamados-atendidos-abuso-sexual-AAAA.zip
+-   **Nombre:** linea 137-violencia-sexual-llamados-intervenciones.zip
 
--   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año.
-
--   **Formato:** ZIP
-
-### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAA
-
--   **Nombre:** intervenciones-domiciliarias-abuso-sexual-AAAA.zip
-
--   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año.
+-   **Descripción del contenido:** archivo comprimido conteniendo toda la información disponible de llamados e intervenciones, organizados en archivos anuales.
 
 -   **Formato:** ZIP
 
