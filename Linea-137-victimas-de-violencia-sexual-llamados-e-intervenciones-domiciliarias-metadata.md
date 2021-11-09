@@ -27,7 +27,7 @@ Recursos disponibles
 
 ### Llamados atendidos sobre abuso sexual - Línea 137 - AAAAMM
 
--   **Nombre del archivo:** llamados-atendidos-abuso-sexual-AAAAMM.csv
+-   **Nombre del archivo:** llamados-atendidos-abuso-sexual-AAAA.csv
 
 -   **Descripción del contenido:** Detalle de los llamados de todo el país atendidos por las y los profesionales de la Línea 137, de alcance nacional, sobre casos de violencia sexual correspondientes al período comprendido entre enero y el mes del año indicado en el título.
 
@@ -41,7 +41,13 @@ Recursos disponibles
 
 -   **llamado_fecha_hora (date):** fecha y hora en la que se realiza el llamado a la Línea 137/0800-222-1717
 
--   **llamado_provincia (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717
+-   **llamado_region (string):** región desde la que se realiza el llamado a la Línea 137/0800-222-1717. Las regiones son
+    -   NOA: Tucumán, Salta, Jujuy, La Rioja, Catamarca, Santiago del Estero
+    -   NEA: Misiones, Corrientes, Formosa, Chaco
+    -   CUYO: Mendoza, San Juan, San Luis
+    -   PAMPEANA: Córdoba, Santa Fe, Entre Ríos, La Pampa
+    -   METROPOLITANA: Ciudad de Buenos Aires, Provincia de Buenos Aires
+    -   PATAGONIA: Tierra del Fuego, Santa Cruz, Chubut, Río Negro, Neuquén
 
 -   **llamante_edad (int):** edad de la persona que llama a la Línea 137/0800-222-1717
 
@@ -171,7 +177,6 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
 ### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAAMM
 
@@ -447,11 +452,10 @@ Recursos disponibles
 
 -   **ofv_no_sabe_no_contesta (string):** vs - violencia sexual. Describe de otras formas de violencias que se desconocen o que no hacen referencia a los campos mencionados anteriormente. Toma los valores SI/NO
 
--   **llamado_provincia_id (string):** provincia desde la que se realiza el llamado a la Línea 137/0800-222-1717, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo llamado_provincia_indec_id)
 
-### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAA trimestre 9
+### Intervenciones domiciliarias por casos de abuso sexual - Línea 137 - AAAAMM
 
--   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAAMM.csv
+-   **Nombre del archivo:** intervenciones-domiciliarias-abuso-sexual-AAAA.csv
 
 -   **Descripción del contenido:** detalle de las intervenciones domiciliarias por casos de violencia sexual efectuadas en CABA por el equipo móvil, luego de los llamados recibidos en la Línea 137/0800-222-1717 (ambas de alcance nacional). La unidad de análisis en este recurso es la víctima. Corresponde al período comprendido entre enero y el mes del año indicado en el título.
 
@@ -594,4 +598,3 @@ Notas
 [Formulario de denuncia - Equipo Niñ@s contra la Explotación Sexual y Grooming del Programa Las Víctimas contra Las Violencias del Ministerio de Justicia y Derechos Humanos de la Nación.](https://www2.jus.gov.ar/equipoNinos)
 
 Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
-
