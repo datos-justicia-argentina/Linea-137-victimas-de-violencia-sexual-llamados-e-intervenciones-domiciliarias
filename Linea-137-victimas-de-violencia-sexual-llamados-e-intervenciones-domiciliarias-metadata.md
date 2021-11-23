@@ -597,4 +597,8 @@ Notas
 
 [Formulario de denuncia - Equipo Niñ@s contra la Explotación Sexual y Grooming del Programa Las Víctimas contra Las Violencias del Ministerio de Justicia y Derechos Humanos de la Nación.](https://www2.jus.gov.ar/equipoNinos)
 
+
+[Un análisis de los datos del Programa "Las Víctimas Contra Las Violencias" 2020-2021](http://datos.jus.gob.ar/varios/Victimas_Contra_Las_Violencias_2020-2021.pdf)
+
+
 Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
