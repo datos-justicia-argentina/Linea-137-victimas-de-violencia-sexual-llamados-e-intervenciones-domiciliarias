@@ -201,13 +201,7 @@ Recursos disponibles
     -   SI
 
     -   NO
-
--   **victima_embarazo (string):** describe si la víctima está embarazada: Toma los valores:
-
-    -   SI
-
-    -   NO
-
+    
 -   **victima_nacionalidad (string):** nacionalidad de la víctima
 
 -   **victima_genero (string):** género de la víctima. Toma los valores:
