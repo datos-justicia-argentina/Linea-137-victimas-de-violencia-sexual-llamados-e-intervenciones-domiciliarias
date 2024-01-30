@@ -113,7 +113,7 @@ Recursos disponibles
 
 -   **vs_intento_violacion_tercera_persona (string):** vs - violencia sexual. Describe intento de violación por tercera persona. Toma los valores SI/NO
 
--   **vs_grooming (string):** vs - violencia sexual. Describe Grooming. Toma los valores SI/NO
+-   **vs_violencia_digital (string):** vs - violencia sexual. Describe violencia digital. Toma los valores SI/NO (hasta el año 2022 nombre de campo: fv_grooming)
 
 -   **vs_exhibicionismo (string):** vs - violencia sexual. Describe exhibicionismo. Toma los valores SI/NO
 
@@ -171,7 +171,7 @@ Recursos disponibles
 
 -   **ofv_uso_animal_victimizar (string):** ofv - otras formas de violencia. Describe la utilización de un animal para victimizar. Toma los valores SI/NO
 
--   **ofv_grooming (string):** ofv - otras formas de violencia. Describe Grooming. Toma los valores SI/NO
+-   **ofv_extorsion_redes_sociales (string):** ofv - otras formas de violencia. Describe extorsión redes sociales. Toma los valores SI/NO (hasta el año 2022 nombre de campo: ofv_grooming)
 
 -   **ofv_otra_forma_violencia (string):** ofv - otras formas de violencia. Describe otra forma de violencia. Toma los valores SI/NO
 
